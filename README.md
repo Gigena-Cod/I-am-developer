@@ -1,6 +1,6 @@
 # Bienvenidos!
 
-##SOY CHRISTIAN GIGENA
+## SOY CHRISTIAN GIGENA
 
 Soy desarrollador Frontend. Sin dudas, me siento afortunado de poder crecer de manera profesional en esta especialidad
 Si hay algo que me caracteriza es la pasión y la perseverancia la cual le dedico a mis proyectos y a las capacitaciones de manera constante
