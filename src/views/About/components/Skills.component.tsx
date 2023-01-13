@@ -17,7 +17,7 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "CSS",
       url: "https://developer.mozilla.org/es/docs/Web/CSS",
-      image: "/src/assets/tecno/CSS.png",
+      image: "https://i.ibb.co/BzXCxRj/css.png",
     },
     {
       name: "SASS",
@@ -52,7 +52,7 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "Angular",
       url: "https://angular.io/docs",
-      image: "/src/assets/tecno/angular.png",
+      image: "https://i.ibb.co/nrCtRgX/angular.png",
     },
   ];
 
@@ -65,7 +65,7 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "Express",
       url: "https://expressjs.com/",
-      image: "/src/assets/tecno/express.png",
+      image: "https://i.ibb.co/VJs5ThZ/express.png",
     },
     {
       name: "Mongo",
@@ -87,7 +87,7 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "Git",
       url: "https://git-scm.com/",
-      image: "/src/assets/tecno/git.png",
+      image: "https://i.ibb.co/HG1KL92/git.png",
     },
     {
       name: "Heroku",
