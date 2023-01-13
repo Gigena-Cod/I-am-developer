@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.min-h-custom{
+  min-height: calc(100vh - 9rem);
+}

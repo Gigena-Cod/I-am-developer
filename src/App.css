@@ -1,0 +1,10 @@
+#root {
+  min-width: 100vh;
+}
+
+.body{
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url("https://swcrafters.fra1.cdn.digitaloceanspaces.com/Book/background%20fr.jpg");
+}
+
