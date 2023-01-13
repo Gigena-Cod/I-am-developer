@@ -11,27 +11,20 @@ const HeaderComponent: FC = () => {
   };
 
   return (
-    <div className=" z-10 sticky top-0 bg-primary  w-full  container__header">
-      <div className="flex items-center w-full max-w-screen-2xl mx-auto justify-between h-20 p-4 content__header">
+    <div className="md:px-4 md:mx-auto max-w-screen-2xl w-full  md:flex md:items-center bg-primary   container__header">
+      <div className="flex z-10  top-0 sticky items-center  mr-auto justify-between h-20 p-4 content__header">
         <div className="flex items-center gap-x-2 cursor-pointer homelink__content">
           <div className="rounded-full w-24 h-24 picture">
             <img src={profile} alt="Nahuel Gigena" className="rounded-full " />
           </div>
-          
         </div>
         <div className="md:hidden cursor-pointer button">
-          <ButtonMainComponent
-            showMain={show}
-            onHandleToggle={onHandleToggle}
-          />
+          <ButtonMainComponent onHandleToggle={onHandleToggle} />
         </div>
-        <MainComponent showMain={show} />
       </div>
+      <MainComponent showMain={show} onHandleToggle={onHandleToggle} />
     </div>
   );
 };
-
-
-
 
 export default HeaderComponent;
