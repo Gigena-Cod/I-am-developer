@@ -12,7 +12,7 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "HTML",
       url: "https://developer.mozilla.org/es/docs/Web/HTML",
-      image: "/src/assets/tecno/html.png",
+      image: "https://i.ibb.co/TY2JN9h/html.png",
     },
     {
       name: "CSS",
@@ -22,32 +22,32 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "SASS",
       url: "https://sass-guidelin.es/es/",
-      image: "/src/assets/tecno/sass.png",
+      image: "https://i.ibb.co/JHnVpMp/sass.png",
     },
     {
       name: "Tailwind CSS",
       url: "https://tailwindcss.com/",
-      image: "/src/assets/tecno/tailwindcss.png",
+      image: "https://i.ibb.co/vZKPYLY/tailwindcss.png",
     },
     {
       name: "JavaScript",
       url: "https://developer.mozilla.org/es/docs/Web/JavaScript",
-      image: "/src/assets/tecno/javaScript.png",
+      image: "https://i.ibb.co/jkqZ3b2/javascript.png",
     },
     {
       name: "TypeScript",
       url: "https://www.typescriptlang.org/es/",
-      image: "/src/assets/tecno/Typescript.png",
+      image: "https://i.ibb.co/pjDKccs/typescript.png",
     },
     {
       name: "Vue",
       url: "https://vuejs.org/",
-      image: "/src/assets/tecno/vue.png",
+      image: "https://i.ibb.co/vJV4Zpt/vue.png",
     },
     {
       name: "React",
       url: "https://es.reactjs.org/",
-      image: "/src/assets/tecno/React.png",
+      image: "https://i.ibb.co/sVQyk90/react.png",
     },
     {
       name: "Angular",
@@ -60,7 +60,7 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "Node JS",
       url: "https://nodejs.org/es/",
-      image: "/src/assets/tecno/node.avif",
+      image: "https://i.ibb.co/NZ4g9ZZ/node.png",
     },
     {
       name: "Express",
@@ -70,19 +70,19 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "Mongo",
       url: "https://www.mongodb.com/",
-      image: "/src/assets/tecno/mongo.avif",
+      image: "https://i.ibb.co/rv2DGrZ/mongo.png",
     },
     {
       name: "TypeScript",
       url: "https://www.typescriptlang.org/es/",
-      image: "/src/assets/tecno/Typescript.png",
+      image: "https://i.ibb.co/pjDKccs/typescript.png",
     },
   ];
   const others: Skill[] = [
     {
       name: "Npm",
       url: "https://www.npmjs.com/",
-      image: "/src/assets/tecno/npm.avif",
+      image: "https://i.ibb.co/DCSP2Q9/npm.png",
     },
     {
       name: "Git",
@@ -92,17 +92,17 @@ const SkillsSectionComponent: FC = () => {
     {
       name: "Heroku",
       url: "https://www.heroku.com/",
-      image: "/src/assets/tecno/heroku.png",
+      image: "https://i.ibb.co/MfHJNWP/heroku.png",
     },
     {
       name: "Postman",
       url: "https://www.postman.com/",
-      image: "/src/assets/tecno/postman.avif",
+      image: "https://i.ibb.co/bdFMyyJ/postman.png",
     },
     {
       name: "Sourcetree",
       url: "https://www.sourcetreeapp.com/",
-      image: "/src/assets/tecno/Sourcetree.png",
+      image: "https://i.ibb.co/Lh4mYK6/sourcetree.png",
     },
   ];
 
