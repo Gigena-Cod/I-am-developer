@@ -22,7 +22,7 @@ const MainComponent: FC<MainComponent> = ({ showMain, onHandleToggle }) => {
     <>
       <div
         style={style}
-        className="w-3/4 z-40 md:w-auto h-full transition ease-in-out duration-5000  md:mt-0 fixed md:static top-0 bg-primary container__main"
+        className="w-3/4 z-40 md:w-auto h-screen transition ease-in-out duration-5000  md:mt-0 fixed md:static top-0 bg-primary container__main"
       >
         <ul className="md:flex md:gap-4 links__container">
           {links.map((link, index) => (
