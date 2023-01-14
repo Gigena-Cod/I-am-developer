@@ -2,7 +2,7 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import SkillComponent from "./components/Skills.component";
 
-const AboutComponent: FC = () => (
+const AboutView: FC = () => (
   <div className="mt-8 min-h-custom snap-center h-auto justify-start flex items-center flex-col max-w-screen-2xl mx-auto text-white">
     <div className="justify-center flex items-center flex-col title-section">
       <div className="text-center uppercase text-5xl md:text-6xl font-bold title">
@@ -49,4 +49,4 @@ const AboutComponent: FC = () => (
     </div>
   </div>
 );
-export default AboutComponent;
+export default AboutView;

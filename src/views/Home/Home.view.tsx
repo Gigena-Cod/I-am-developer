@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 
-const HomeComponent: FC = () => (
+const HomeView: FC = () => (
   <div
     className="min-h-custom snap-center justify-center flex items-center flex-col max-w-screen-2xl mx-auto text-white"
   >
@@ -17,4 +17,4 @@ const HomeComponent: FC = () => (
     </Link>
   </div>
 );
-export default HomeComponent;
+export default HomeView;

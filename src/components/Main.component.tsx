@@ -10,6 +10,7 @@ const MainComponent: FC<MainComponent> = ({ showMain, onHandleToggle }) => {
   const links = [
     { name: "Inicio", url: "/" },
     { name: "Sobre mi", url: "/about" },
+    { name: "Experiencia", url: "/experience" },
     { name: "Proyectos", url: "/projects" },
     { name: "Contacto", url: "/contact" },
   ];

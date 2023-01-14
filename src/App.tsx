@@ -1,23 +1,25 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeaderComponent from "./components/Header.component";
-import AboutComponent from "./views/About/About.component";
-import ProjectsComponent from "./views/Projects/Projects.component";
-import ContactComponent from "./views/Contact/Contact.component";
-import HomeComponent from "./views/Home/Home.component";
+import AboutView from "./views/About/About.view";
+import ProjectsView from "./views/Projects/Projects.view";
+import ContactView from "./views/Contact/Contact.view";
+import HomeView from "./views/Home/Home.view";
+import ExperienceView from "./views/Experience/Experience.view";
 
 
 function App() {
   return (
     <div className="App">
-      <div className=" p-8 body container__body">
+      <div className=" p-4 body container__body">
         <Router>
           <HeaderComponent />
             <Routes>
-              <Route index element={<HomeComponent />} />
-              <Route path="/about" element={<AboutComponent />} />
-              <Route path="/projects" element={<ProjectsComponent />} />
-              <Route path="/contact" element={<ContactComponent />} />
+              <Route index element={<HomeView />} />
+              <Route path="/about" element={<AboutView />} />
+              <Route path="/experience" element={<ExperienceView />} />
+              <Route path="/projects" element={<ProjectsView />} />
+              <Route path="/contact" element={<ContactView />} />
             </Routes>
         </Router>
       </div>

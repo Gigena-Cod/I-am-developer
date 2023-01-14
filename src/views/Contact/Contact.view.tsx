@@ -2,7 +2,7 @@ import { FC } from "react";
 import emailjs from "@emailjs/browser";
 
 
-export const ContactComponent: FC = () => {
+export const ContactView: FC = () => {
   const sendEmail = (event:any) => {
     event.preventDefault(); 
     
@@ -79,4 +79,4 @@ export const ContactComponent: FC = () => {
   );
 };
 
-export default ContactComponent;
+export default ContactView;
