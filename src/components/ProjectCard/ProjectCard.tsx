@@ -1,28 +1,39 @@
 import FolderIcon from "../Icons/Folder";
 import LinkIcon from "../Icons/Link";
 
-const ProjectCard = () => {
+interface ProjectCardProps {
+  title: string;
+  description: string;
+  links: {
+    web: string;
+    github: string;
+  };
+  technologies: string[];
+}
+const ProjectCard = ({
+  links,
+  technologies,
+  description,
+  title,
+}: ProjectCardProps) => {
   return (
     <div className=" transition-all duration-300 ease-in-out bg-zinc-800 bg-opacity-60 hover:shadow hover:shadow-yellow-400 rounded-lg p-6 project">
       <div className="flex justify-between  icons">
-        <FolderIcon />
-
-        <a href="#">
+        <a target={links.web ? '_blank' : ""} href={links.web ? links.web : "#"}>
+          <FolderIcon />
+        </a>
+        <a target="_blank" href={links.github}>
           <LinkIcon />
         </a>
       </div>
-      <div className="font-bold mt-2 text-xl title">
-        Integrating Algolia Search with WordPress Multisite
-      </div>
-      <div className="mt-3 mb-5 description">
-        Find out how we built a custom headless CMS with Node, Express, and
-        Firebase for a project at Upstatement
-      </div>
+      <div className="font-bold mt-2 text-xl uppercase title">{title}</div>
+      <div className="mt-3 mb-5 description">{description}</div>
       <div className="flex gap-2 flex-wrap tecnology">
-        <span className="italic text-sm ">Node</span>
-        <span className="italic text-sm ">Express</span>
-        <span className="italic text-sm ">Firebase</span>
-        <span className="italic text-sm ">VueJs</span>
+        {technologies.map((tech, index) => (
+          <span key="index" className="italic text-sm ">
+            {tech}
+          </span>
+        ))}
       </div>
     </div>
   );
